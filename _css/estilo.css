@@ -1,0 +1,108 @@
+/*###formatação padrão GERAL*/
+body{
+	font-family: "trebuchet MS", Helvetica, sans-serif;
+	background:  url(../_img/tela.png)  #333;
+
+}
+
+h1{
+	color:black;
+	font-family:cursive;
+}
+
+/*tabelass*/
+.tabela{
+	 overflow-y: scroll;
+}
+
+table {
+  font-family: arial, sans-serif;
+  color: #0F073B;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+td{
+  background-color: #31075B;
+  border: 2px solid black;
+  text-align: left;
+  padding: 8px;
+  color: white;
+}
+
+th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 8px;
+  color: white;
+  background-color: #1E0538;
+
+}
+
+
+
+.conteiner{
+	height: 200px;
+	width: 300px;
+	background-color: rgba( 128 ,106 ,21 ,0.5 );
+	border: 2px solid #554400;
+	padding-top: 50px;
+}
+
+
+/*Estilo da pagina TELÂO e seu layout*/
+#conteudo_telao{
+	margin-top: 0px;	
+}
+
+#tela_senha{
+	font-family:'Orbitron', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color:  rgba(0, 220, 0, 0.8 ); 
+	font-size: 12em;
+	background: #221F2B;
+	width: 853px;
+	min-width: 300px;
+	height: 550px;
+	float: right;
+	border: 3px solid green;
+	display: block;
+	
+}
+#tela_chamadas{
+	background: whitesmoke;
+	color: blue;
+	width: 475px;
+	height: 268px;
+	border: 2px solid blue;
+	margin-bottom: 8px;
+	display: inline-block;
+	overflow-y:scroll; 
+	font-size: 4em;
+
+	
+}
+#tela_prox{
+	background: whitesmoke;
+	color: red;
+	width: 475px;
+	height: 268px;
+	border: 2px solid red;
+	display: inline-block;
+	overflow-y:scroll; 
+	font-size: 4em;
+}
+
+
+/*estilizando a pagina de imprimir senha*/
+.ticket{
+	background: url(../_img/senha.png) no-repeat center;
+	height: 450px;
+	margin-top: -60px; 
+	padding-top: 100px;
+	
+}
+
+
