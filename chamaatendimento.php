@@ -63,8 +63,8 @@ $status= mysqli_query($conn, "SELECT * FROM atende ") or die(
 		</div>
 			
 			<button class="botao" onclick="window.location.href='index.php'">Voltar</button>
-			<button class="botao" onclick="window.location.href='chamar_modo_atendente.php'">Chamar Próximo</button>
+			<button class="botao" onclick="window.location.href='chamar.php?retorno=atendente'">Chamar Próximo</button>
 			<button class="botao" onclick="window.location.href='limpar.php'">limpar atendimentos</button>
-		
+			
 	</body>
 </html>

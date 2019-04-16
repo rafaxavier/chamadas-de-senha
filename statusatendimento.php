@@ -69,6 +69,6 @@ Essa página deverá ser atualizada a cada 3 segundos.
 		</div>
 
 			<button class="botao" onclick="window.location.href='index.php'">Voltar</button>
-			<button class="botao" onclick="window.location.href='chamar.php'"> Chamar</button>
+			<button class="botao" onclick="window.location.href='chamar.php?retorno=telao'">Chamar Próximo</button>
 	</body>
 </html>
