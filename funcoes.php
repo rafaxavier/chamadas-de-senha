@@ -1,5 +1,7 @@
 <?php 
-    function generatePassword($qtyCaraceters = 8)
+include("conexao.php"); 
+
+function generatePassword($qtyCaraceters = 8)
 {
     //Letras minúsculas embaralhadas
    // $smallLetters = str_shuffle('abcdefghijklmnopqrstuvwxyz');
@@ -23,4 +25,10 @@
     //Retorna a senha
     return $senha;
 }
+
+
+
+
+
+
 ?>

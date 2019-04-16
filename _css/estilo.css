@@ -65,10 +65,11 @@ th {
 	background: #221F2B;
 	width: 853px;
 	min-width: 300px;
-	height: 550px;
+	height: 480px;
 	float: right;
 	border: 3px solid green;
 	display: block;
+	padding-top: 70px;
 	
 }
 #tela_chamadas{

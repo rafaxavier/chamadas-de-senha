@@ -17,7 +17,7 @@ include("conexao.php");
 
 if (mysqli_query($conn, $sql)) {
     echo "New record created successfully";
-    header("Location: statusatendimento.php");
+    header("Location: chamaatendimento.php");
 
 
 } else {

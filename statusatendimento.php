@@ -39,7 +39,7 @@ Essa página deverá ser atualizada a cada 3 segundos.
 					if($aux = mysqli_fetch_assoc($atual)){
 						echo "SENHA<br>";
 						echo $aux["senhaAtende"];
-					}else{echo "SENHA <br>0000";}
+					}else{echo "SENHA <br>";}
 							
 				?>					
 			</div>
